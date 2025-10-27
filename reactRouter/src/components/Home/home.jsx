@@ -32,12 +32,24 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+    <img
+  className="w-96 rounded-3xl"
+  src="https://thumbs.dreamstime.com/b/team-collaboration-modern-office-workspace-team-collaboration-modern-office-workspace-group-professionals-working-380069983.jpg"
+  alt="Team collaboration in modern office"
+/>
+
+
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+               <img
+  className="sm:w-96 w-48 rounded-3xl"
+  src="https://img.freepik.com/free-vector/brainstorming-concept-landing-page_23-2148324105.jpg?w=740"
+  alt="Group work brainstorming"
+/>
+
+
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>

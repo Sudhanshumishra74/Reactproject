@@ -7,10 +7,12 @@ export default function About() {
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
-                        <img
-                            src="https://www.pexels.com/photo/unique-odd-eyed-white-cat-against-turquoise-curtain-34137034/"
-                            alt="image"
-                        />
+                       <img
+  className="w-96 rounded-3xl"
+  src="https://media.istockphoto.com/id/1385509455/vector/business-communication-concept.jpg?s=612x612&w=0&k=20&c=BqAT-opyxl84x3IKO4JMi6E8YB8AJIPU_7q49c8FojY="
+  alt="Business communication concept"
+/>
+
                     </div>
                     <div className="md:7/12 lg:w-6/12">
                         <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">

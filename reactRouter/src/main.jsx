@@ -6,6 +6,7 @@ import Layout from './Layout.jsx'
 import Home from './components/Home/home.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/contact/contact.jsx'
+import User from './components/User/User.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,18 +14,21 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        index: true, // ✅ Default route (renders at "/")
+        index: true, // default route
         element: <Home />
       },
       {
-        path: "about", // ✅ Accessible at "/about"
+        path: "about",
         element: <About />
       },
       {
         path: "contact",
-        element: <contact/>
+        element: <Contact />
+      },
+      {
+        path: "user/:userId",
+        element: <User />
       }
-
     ]
   }
 ])
